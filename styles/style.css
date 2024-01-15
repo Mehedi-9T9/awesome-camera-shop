@@ -7,9 +7,22 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.nav-container {
+.similar-para {
+    color: #3A3A3A;
+
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+
+.header-container {
     max-width: 1200px;
     margin: 0px auto;
+
+}
+
+.nav-container {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,12 +35,10 @@
     color: #3A3A3A;
     font-size: 24px;
     font-weight: 700;
+    padding: 10px 0px;
 }
 
-/* .nav-items {
-    display: flex;
-    justify-content: space-between;
-} */
+
 
 .nav-items a {
     color: #3A3A3A;
@@ -39,3 +50,73 @@
 
 
 }
+
+/* Bannar start  */
+.bannar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.baner-content {
+    width: 50%;
+
+
+}
+
+.bannar-content h1 {
+    color: #3A3A3A;
+
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.bannar-content button {
+    width: 200px;
+    height: 44px;
+    background-color: #E02C6D;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    margin-top: 25px;
+
+
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.bannar-content button i {
+    margin-left: 10px;
+}
+
+.bannar-img {
+    width: 45%;
+
+    background-image: url("../asset/images/Circle\ design.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+
+
+
+}
+
+/* bannar end  */
+/* main section start  */
+.main-container {
+    max-width: 1100px;
+    margin: 0px auto;
+}
+
+/* Sponcer Section Styling  */
+.sponcer-container {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid rgba(128, 128, 128, 0.145);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.145);
+    padding: 20px;
+}
+
+/* Collaction Section Styling  */

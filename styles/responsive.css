@@ -1,29 +1,80 @@
 @media screen and (max-width:576px) {
-    .nav-container {
+
+    .nav-container,
+    .bannar-container,
+    .sponcer-container {
         flex-direction: column;
     }
 
-    .nav-items a {
-        display: block;
-        margin: 10px;
-        text-align: center;
+    .nav-items a,
+    {
+    display: block;
+    margin: 10px;
+    text-align: center;
 
-    }
+}
 
-    .nav-logo {
-        margin-bottom: 10px;
-    }
+.nav-logo {
+    margin-bottom: 10px;
+}
+
+.bannar-content {
+    width: auto;
+    margin: 10px;
+    order: 2;
+    text-align: center;
+
+
+}
+
+.bannar-img {
+    width: auto;
+    margin: 50px;
+    order: 1;
+    background-position: center;
+
+}
+
+.sponcer-container img {
+    margin: 50px 20px;
+
+}
 
 }
 
 /*For  Mediaum Device  */
 @media screen and (min-width:576px) and (max-width:992px) {
-    .nav-container {
+
+    .nav-container,
+    .bannar-container {
         flex-direction: column;
 
     }
 
     .nav-logo {
         margin-bottom: 10px;
+    }
+
+    .bannar-img {
+        width: auto;
+        margin: 50px;
+        order: 1;
+        background-position: center;
+
+    }
+
+    .bannar-content {
+        width: auto;
+        margin: 10px;
+        order: 2;
+        text-align: center;
+
+
+    }
+
+    .sponcer-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 20px;
     }
 }
