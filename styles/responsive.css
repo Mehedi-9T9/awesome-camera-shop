@@ -1,0 +1,29 @@
+@media screen and (max-width:576px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-items a {
+        display: block;
+        margin: 10px;
+        text-align: center;
+
+    }
+
+    .nav-logo {
+        margin-bottom: 10px;
+    }
+
+}
+
+/*For  Mediaum Device  */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .nav-container {
+        flex-direction: column;
+
+    }
+
+    .nav-logo {
+        margin-bottom: 10px;
+    }
+}
